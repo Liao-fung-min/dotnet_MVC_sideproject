@@ -94,12 +94,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\EmpolyeeController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -112,10 +113,11 @@
     <Content Include="Views\Product\AddProduct.cshtml" />
     <Content Include="Views\Home\GotoUpdateProduct.cshtml" />
     <Content Include="Views\Product\UpdateProduct.cshtml" />
-    <Content Include="Views\Shared\EmpolyeeLayout.cshtml" />
-    <Content Include="Views\Empolyee\Index.cshtml" />
-    <Content Include="Views\Empolyee\AddEmpolyee.cshtml" />
-    <Content Include="Views\Empolyee\UpdateEmpolyee.cshtml" />
+    <Content Include="Views\Shared\EmployeeLayout.cshtml" />
+    <Content Include="Views\Employee\AddEmployee.cshtml" />
+    <Content Include="Views\Employee\UpdateEmployee.cshtml" />
+    <Content Include="Views\Employee\Partial\EmployeeForm.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
