@@ -114,6 +114,8 @@
     <Content Include="Views\Product\UpdateProduct.cshtml" />
     <Content Include="Views\Shared\EmpolyeeLayout.cshtml" />
     <Content Include="Views\Empolyee\Index.cshtml" />
+    <Content Include="Views\Empolyee\AddEmpolyee.cshtml" />
+    <Content Include="Views\Empolyee\UpdateEmpolyee.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
